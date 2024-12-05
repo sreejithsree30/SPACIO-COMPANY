@@ -1,0 +1,82 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    background-image: url('E:\company\src\Assets\Spacio TechTonics Consultancy V21.png');
+  }
+  
+  .carousel {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: hue-rotate(180deg) saturate(1.5);
+  }
+  
+  .text-overlay {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+  }
+  
+  .text-overlay h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f0f0f0;
+    font-style: oblique;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
+  .footer1 {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    color:white;
+  }
+  
+  .footer1 p {
+    color: white;
+    font-size: 0.9rem;
+  }
+  

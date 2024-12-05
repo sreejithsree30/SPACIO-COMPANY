@@ -1,0 +1,152 @@
+
+.App1 {
+    text-align: center;
+    background-image: url('E:\company\src\Assets\Spacio TechTonics Consultancy V21.png');
+    background-size: cover;
+    opacity:1.5;
+    font-family: Arial, sans-serif;
+    filter: brightness(100%);
+    color: white;
+  }
+
+  .hero-cart-container{
+    /* background: rgba(0, 0, 0, 0.5); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 60px 0 0 90px;
+   
+  }
+
+  .hero-cart-container h2{
+    padding-bottom: 20px;
+    font-size: 80px;
+  }
+
+  .hero-cart-container p{
+    padding-bottom: 30px;
+    font-size: 24px;
+  }
+  
+  .hero-cart-container a {
+    color: #e6dfde;
+    text-decoration: underline;
+    font-style: oblique;
+  
+  }
+
+  .footer-cart-container{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .contact {
+    padding: 50px;
+    /* background: rgba(0, 0, 0, 0.5); */
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .contact-input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    /* color: aliceblue; */
+    background: transparent;
+    border: 2px solid wheat;
+    width: 280px;
+
+  }
+
+  .contact-input::placeholder{
+    color: aliceblue;
+  }
+  
+  .contact-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color:black;
+    cursor: pointer;
+  }
+
+  .contact-button img{
+    height: 20px;
+  }
+  
+  footer {
+    padding: 20px;
+    /* background: rgba(0, 0, 0, 0.5); */
+  }
+
+  .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+  }
+
+  .social p{
+    margin-right: 40px;
+    font-size: 24px;
+  }
+
+  .social img{
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  .contact-cart{
+    text-align: start;
+    margin-bottom: 20px;
+    margin-right: 160px;
+  }
+
+
+  .navbar-app-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-top: 90px;
+  }
+
+  .navbar-app-cart{
+    display: flex;
+  }
+  
+  .navbar-app-cart img{
+    padding-right: 30px;
+  }
+
+  .navbar-app-list{
+    display: flex;
+    justify-content: space-between;
+    color: antiquewhite;
+    list-style-type: none;
+  }
+
+  .navbar-app-list li{
+    padding-right:40px;
+    color: #e6dfde;
+    font-size: 22px;
+  }
+  

@@ -1,0 +1,72 @@
+
+
+
+.about-cart-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80vh;
+}
+
+.about-left-cart{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-top: 50px;
+}
+
+.about-left-cart h5{
+    border-left: 4px solid red;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+
+.about-left-cart button{
+    /* width: 200px; */
+    padding: 20px 50px 20px 50px;
+    margin-top: 40px;
+    box-shadow: inset;
+    font-size: 24px;
+    border-radius: 25px;
+    box-shadow: 12px 11px 12px rgba(0, 0, 0, 0.3);
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.about-right-cart{
+    padding-top: 170px;
+    padding-left: 170px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+
+}
+
+.about-right-cart p{
+    font-size: 21px;
+    color: black;
+    padding-bottom: 10px;
+    padding-right: 140px;
+}
+
+.about-right-spantop{
+    font-weight: bolder;
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+.about-right-span{
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 22px;
+
+}
+
+.home-footer{
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
